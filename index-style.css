@@ -394,3 +394,76 @@ footer img {
   background: #41c4c4;
   color: #f6a21e;
 }
+
+@media (max-width: 800px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  header nav {
+    font-size: 1.1rem;
+    padding-left: 50%;
+  }
+
+  .first-sail {
+    font-size: 1.6rem;
+  }
+
+  .second-sail .sail-text {
+    font-size: 1.8rem;
+  }
+
+  .third-sail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .third-sail .featured-profile {
+    width: 100%;
+  }
+  .featured-profile img {
+    width: 40%;
+  }
+
+  .featured-profile p {
+    width: 80%;
+  }
+
+  .forth-sail {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .forth-sail .join-butt {
+    width: 100%;
+  }
+  .forth-sail img {
+    width: 100%;
+  }
+
+  footer .low-nav {
+    font-size: 1rem;
+  }
+
+  .event-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-container .event {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  header nav {
+    margin-left: -25%;
+    font-size: 1rem;
+    width: 70%;
+  }
+
+  footer .low-nav {
+    width: 90%;
+  }
+}

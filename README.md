@@ -7,3 +7,5 @@
 9/21/2020 Images added to html and styling index.html
 
 9/23/2020 Both pages created and styled working on responsive design for 800px & 500px
+
+9/23/2020 Responsive design complete
