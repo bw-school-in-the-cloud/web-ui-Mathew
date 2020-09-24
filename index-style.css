@@ -1,0 +1,469 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  font-size: 62.5%;
+}
+
+/* Reset end-------------------------------------------------------------------------------------------*/
+body {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #41c4c4;
+  font-family: "Graduate", cursive;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0.5% 0 0.5% 0;
+  background: #f6a21e;
+  color: #f4f4f4;
+  border-bottom: 3px solid white;
+}
+
+.top-spot {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-spot img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.top-spot h1 {
+  font-size: 4.4rem;
+  padding-left: 1%;
+  font-family: "Graduate", cursive;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-size: 1.6rem;
+  width: 50%;
+  background: #f6a21e;
+}
+
+header nav a {
+  height: max-content;
+  width: auto;
+  text-align: center;
+}
+
+.first-sail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  background-image: url(https://images.unsplash.com/photo-1524508762098-fd966ffb6ef9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  color: #f6a21e;
+  line-height: 2;
+  font-family: "Graduate", cursive;
+}
+.main-sail h2 {
+  color: #41c4c4;
+  font-weight: bolder;
+}
+
+.main-sail {
+  margin-top: 12%;
+}
+
+.second-sail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5% 0 10% 0;
+  background: #f6a21e;
+}
+
+.second-sail .sail-text {
+  font-size: 3.3rem;
+  width: 80%;
+  line-height: 1.25;
+  color: #f4f4f4;
+  font-family: "Roboto Mono", monospace;
+}
+
+.instructor-title {
+  text-align: center;
+  font-size: 3rem;
+  background: #41c4c4;
+  font-family: "Graduate", cursive;
+  padding: 1% 0 0 0;
+  color: #f6a21e;
+}
+
+.third-sail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #41c4c4;
+  padding: 2% 0 2% 0;
+}
+
+.featured-profile {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-top: 3%;
+  font-size: 1.6rem;
+  color: #f4f4f4;
+  font-family: "Roboto Mono", monospace;
+  align-items: center;
+}
+
+.featured-profile img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.forth-sail {
+  display: flex;
+  flex-direction: row;
+
+  padding: 5% 0 5% 0;
+  background: #f6a21e;
+}
+
+.forth-sail img {
+  width: 50%;
+  padding-right: 1%;
+}
+
+.forth-sail .join-butt {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding-left: 1%;
+}
+
+.join-butt p {
+  font-size: 3.3rem;
+  text-align: center;
+  color: #f4f4f4;
+  font-family: "Roboto Mono", monospace;
+}
+
+.join-butt a {
+  width: 30%;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #f4f4f4;
+  background: #41c4c4;
+  border-radius: 5%;
+  padding: 1%;
+  margin-top: 3%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  background: #41c4c4;
+}
+
+footer img {
+  border-radius: 50%;
+  width: 10%;
+  padding: 1%;
+}
+
+.low-nav {
+  display: flex;
+  width: 40%;
+  padding: 1% 0 1% 0;
+  justify-content: space-around;
+  background: #f6a21e;
+}
+
+.low-nav a {
+  color: white;
+}
+
+.students-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 4rem;
+  background-image: url(https://images.unsplash.com/photo-1572021335469-31706a17aaef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+
+  color: #f6a21e;
+  line-height: 2;
+  font-family: "Graduate", cursive;
+}
+
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background: #f6a21e;
+}
+
+.event {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  color: #f4f4f4;
+  width: 49%;
+  margin: 2% 0 2% 0;
+  background: #41c4c4;
+  text-align: center;
+}
+
+.event img {
+  width: 50%;
+}
+
+.event h3 {
+  font-family: "Graduate", cursive;
+  font-size: 2.2rem;
+}
+
+.event li {
+  font-size: 1.4rem;
+  font-family: "Graduate", cursive;
+}
+
+.event p,
+.event a {
+  font-size: 1.6rem;
+  font-family: "Courier New", Courier, monospace;
+  color: #f4f4f4;
+}
+
+.event-banner {
+  text-align: center;
+  padding-top: 2%;
+  font-size: 4rem;
+  font-family: "Graduate", cursive;
+  background: #41c4c4;
+  color: #f6a21e;
+}
+
+@media (max-width: 800px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  header nav {
+    font-size: 1.1rem;
+    padding-left: 50%;
+  }
+
+  .first-sail {
+    font-size: 1.6rem;
+  }
+
+  .second-sail .sail-text {
+    font-size: 1.8rem;
+  }
+
+  .third-sail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .third-sail .featured-profile {
+    width: 100%;
+  }
+  .featured-profile img {
+    width: 40%;
+  }
+
+  .featured-profile p {
+    width: 80%;
+  }
+
+  .forth-sail {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .forth-sail .join-butt {
+    width: 100%;
+  }
+  .forth-sail img {
+    width: 100%;
+  }
+
+  footer .low-nav {
+    font-size: 1rem;
+  }
+
+  .event-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-container .event {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  header nav {
+    margin-left: -25%;
+    font-size: 1rem;
+    width: 70%;
+  }
+
+  footer .low-nav {
+    width: 90%;
+  }
+}
