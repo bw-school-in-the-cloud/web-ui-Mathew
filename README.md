@@ -9,3 +9,5 @@
 9/23/2020 Both pages created and styled working on responsive design for 800px & 500px
 
 9/23/2020 Responsive design complete
+
+9/24/2020 Final local push
